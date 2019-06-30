@@ -53,7 +53,7 @@ startGame = () => {
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
         //go to the end page
-        return window.location.assign("html/end.html");
+        return window.location.assign("end.html");
     }
 
     questionCounter++;
